@@ -16,7 +16,7 @@
 				<div
 					class="prose prose-sm overflow-x-auto prose-a:text-orange visited:prose-a:text-th-purple prose-a:prose-headings:no-underline dark:prose-invert md:prose-base lg:prose-lg"
 				>
-					<h1 v-if="page.title">{{ page.title }}</h1>
+					<h1 v-if="page.title" class="text-th-purple">{{ page.title }}</h1>
 					<slot />
 				</div>
 

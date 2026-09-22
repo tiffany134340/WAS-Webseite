@@ -64,7 +64,8 @@ export default defineNuxtConfig({
 	},
 
 	colorMode: {
-		classSuffix: '',
+		preference: 'light',
+classSuffix: '',
 	},
 
 	image: {

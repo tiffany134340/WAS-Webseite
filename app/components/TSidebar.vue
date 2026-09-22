@@ -30,7 +30,7 @@
 							:key="item.name"
 							:to="item.to"
 							class="group flex items-center rounded-md px-2 py-2 text-base font-medium"
-							active-class="text-th-red dark:text-th-orange"
+							active-class="text-th-orange dark:text-th-orange"
 						>
 							{{ item.name }}
 						</NuxtLink>
@@ -57,7 +57,7 @@
 						:key="item.name"
 						:to="item.to"
 						class="group flex items-center rounded-md px-2 py-2 font-medium hover:text-th-red dark:hover:text-th-orange"
-						active-class="text-th-red dark:text-th-orange"
+						active-class="text-th-orange dark:text-th-orange"
 					>
 						{{ item.name }}
 					</NuxtLink>
